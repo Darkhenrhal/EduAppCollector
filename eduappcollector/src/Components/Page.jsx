@@ -8,20 +8,29 @@ import Mygpa from "./Mygpa";
 
 const Page = () => {
   return (
-    <main className="overflow-x-hidden h-screen bg-white text-dark">
+    <main className="overflow-x-hidden overflow-y-auto bg-white text-dark">
       {/* Navbar with absolute positioning */}
-      <Navbar className="z-100 absolute top-0 left-0 right-0 w-full" />
       
-      {/* Hero section with padding to go underneath the Navbar */}
-      <section id="hero" > {/* Adjust padding to match navbar height */}
-        <Hero className="z-1 " />
-      </section> 
-      <section>
-        <Mygpa/>
+      {/* Hero section with padding to match navbar height */}
+      <section id="hero">
+        <Hero className="z-1" />
       </section>
-      <section id="features" className="mb-3"><Features /></section> 
-      {/* <section id="contact"><Contact /></section>  */}
-      <section id="footer"><Footer/></section>
+      
+      <section>
+        <Mygpa />
+      </section>
+      
+      <section id="features" className="mb-4">
+        <Features />
+      </section>
+      
+      <section id="contact" className="bg-greylight pt-16 pb-16">
+        <Contact />
+      </section>
+
+      <section id="footer">
+        <Footer />
+      </section>
     </main>
   );
 };
