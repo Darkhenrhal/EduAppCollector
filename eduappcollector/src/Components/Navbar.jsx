@@ -5,15 +5,15 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">          
-        <div class="relative flex items-center justify-between">
+      <div class="px-4 mt-[5px] rounded-md py-5 md:mx-auto sm:max-w-xl sm:mx-[10px] md:max-w-full bg-black lg:max-w-screen-xl md:px-24 lg:px-8">          
+        <div class="relative flex items-center justify-between ">
           <a
             href="/"
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
           >
-            <svg
+            {/* <svg
               class="w-8 text-deep-purple-accent-400"
               viewBox="0 0 24 24"
               strokeLinejoin="round"
@@ -27,18 +27,18 @@ const Navbar = () => {
               <rect x="3" y="17" width="7" height="6" />
               <rect x="14" y="1" width="7" height="6" />
               <rect x="14" y="11" width="7" height="12" />
-            </svg>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              Company
+            </svg> */}
+            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase text-greylight">
+              MyGPA
             </span>
           </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
+          <ul class="flex items-center hidden space-x-8 lg:flex ">
             <li>
               <a
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class="font-medium text-greylight tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Product
               </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class="font-medium text-greylight tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Features
               </a>
@@ -58,9 +58,9 @@ const Navbar = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class="font-medium text-greylight tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Pricing
+                Download
               </a>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class="font-medium text-greylight tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 About us
               </a>
@@ -78,7 +78,7 @@ const Navbar = () => {
             <button
               aria-label="Open Menu"
               title="Open Menu"
-              class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+              class="p-2 -mr-1 text-greylight text-greylight transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
               onClick={() => setIsMenuOpen(true)}
             >
               <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -123,7 +123,7 @@ const Navbar = () => {
                           <rect x="14" y="11" width="7" height="12" />
                         </svg>
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Company
+                          MyGPA
                         </span>
                       </a>
                     </div>
@@ -172,7 +172,7 @@ const Navbar = () => {
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          Download
                         </a>
                       </li>
                       <li>

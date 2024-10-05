@@ -3,7 +3,7 @@ import React from "react";
 const Features = () => {
     return(
         <section class="max-w-6xl mx-auto">
-            <h2 class="text-gray-800 sm:text-4xl text-2xl font-extrabold text-center mb-16">Discover Our Exclusive Features</h2>
+            <h2 class="text-gray-800 sm:text-4xl text-2xl font-extrabold text-center mb-16">What we give</h2>
 
             <div class="grid mb-14 lg:grid-cols-3 md:grid-cols-2 max-md:max-w-lg mx-auto gap-12">
                 <div class="p-4 flex gap-6 rounded-lg hover:shadow-md hover:scale-105 transition-all duration-300">

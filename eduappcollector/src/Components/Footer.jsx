@@ -6,10 +6,10 @@ const Footer = () => {
         <div class="grid max-md-grid-cols-1 lg:grid-cols-2 gap-20">
           <div>
             <h4 class="text-gray-100 font-bold text-lg">About Us</h4>
-            <p class="text-sm mt-6 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida,
-              mi eu pulvinar cursus, sem elit interdum mauris dipiscing elit. Aenean gravida,
-              mi eu pulvinar cursus... <a href='javascript:void(0)' class="text-sm font-semibold text-[#007bff]">Read
-                more</a></p>
+            <p class="text-sm mt-6 text-gray-300 text-justify">At EduAppCollector, we believe that education should be accessible, ad-free, and powered by the community. As a free and open-source app store, we are dedicated to providing students with high-quality, open-source educational tools that are easy to use, secure, and completely free.
+               {/* <a href='javascript:void(0)' class="text-sm font-semibold text-[#007bff]">Read
+                more</a> */}
+                </p>
   
             <ul class="grid sm:grid-cols-2 mt-12 gap-2">
               <li class="flex items-center max-sm:mb-8">
@@ -43,9 +43,8 @@ const Footer = () => {
           </div>
   
           <div>
-            <h4 class="text-gray-100 font-bold text-lg">Newsletter</h4>
-            <p class="text-sm mt-6 text-gray-300">Subscribe to our newsletter and stay up to date with the latest news,
-              updates, and exclusive offers. Get valuable insights. Join our community today!</p>
+            <h4 class="text-gray-100 font-bold text-lg">For Collaboration</h4>
+            <p class="text-sm mt-6 text-gray-300 text-justify">At EduAppCollector, we’re on a mission to build the largest free and open-source app store for educational tools. Whether you're a developer, educator, or simply passionate about open-source projects, we welcome your collaboration.</p>
   
             <div class="bg-[#343538] flex px-2 py-1 rounded-full mt-12">
               <input type='email' placeholder='Enter your email'
@@ -120,7 +119,7 @@ const Footer = () => {
             </li>
           </ul>
   
-          <p class='text-sm text-gray-300 lg:ml-auto max-lg:mt-6'>© ReadymadeUI. All rights reserved.</p>
+          <p class='text-sm text-gray-300 lg:ml-auto max-lg:mt-6'>©2024, EduAppCollector. All rights reserved.</p>
         </div>
       </footer>
     );

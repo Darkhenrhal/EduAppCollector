@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Features from "./Features";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Mygpa from "./Mygpa";
 
 const Page = () => {
   return (
@@ -15,6 +16,9 @@ const Page = () => {
       <section id="hero" > {/* Adjust padding to match navbar height */}
         <Hero className="z-1 " />
       </section> 
+      <section>
+        <Mygpa/>
+      </section>
       <section id="features" className="mb-3"><Features /></section> 
       {/* <section id="contact"><Contact /></section>  */}
       <section id="footer"><Footer/></section>
