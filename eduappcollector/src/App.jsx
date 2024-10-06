@@ -1,18 +1,19 @@
-import { useState } from 'react';
 import Page from './Components/Page';
 import './App.css';
 import Navbar from './Components/Navbar';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
-      <Navbar className="absolute z-100 top-0 left-0 right-0 w-full" />
+      {/* Navbar fixed at the top of the screen */}
+      <Navbar className="fixed z-50 top-0 left-0 right-0 w-full" />
 
-      <Page/>
+      {/* Ensure content does not overlap with the fixed navbar by adding padding */}
+      <div className="pt-[80px]"> {/* Adjust padding according to your navbar height */}
+        <Page />
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

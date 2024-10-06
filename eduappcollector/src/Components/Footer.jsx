@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <a href="javascript:void(0)" class="text-gray-100 text-sm ml-4">
                   <small class="block">Tel</small>
-                  <strong>180-548-2588</strong>
+                  <strong>+94-70-173-1320</strong>
                 </a>
               </li>
               <li class="flex items-center">
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <a href="javascript:void(0)" class="text-gray-100 text-sm ml-4">
                   <small class="block">Mail</small>
-                  <strong>info@example.com</strong>
+                  <strong>sineth21404@gmail.com</strong>
                 </a>
               </li>
             </ul>
@@ -55,7 +55,7 @@ const Footer = () => {
                 class="bg-gray-100 hover:bg-white transition-all text-gray-600 font-semibold text-sm rounded-full px-5 py-2 ml-4">Submit</button>
             </div>
   
-            <ul class="flex items-center justify-end mt-8 space-x-4">
+            {/* <ul class="flex items-center justify-end mt-8 space-x-4">
               <li class="bg-[#343538] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                 <a href="javascript:void(0)">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#fff' viewBox="0 0 24 24">
@@ -104,7 +104,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
   
