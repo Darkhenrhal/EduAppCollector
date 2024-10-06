@@ -41,7 +41,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="sm:grid md:flex  lg:flex sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-7xl">
+    <div className="sm:grid md:flex grid  lg:flex sm:grid-cols-0 items-start gap-16 p-4 mx-auto max-w-7xl">
       {/* Toast Container for notifications */}
       <ToastContainer />
       
