@@ -41,7 +41,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-6xl">
+    <div className="sm:grid md:flex lg:flex sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-7xl">
       {/* Toast Container for notifications */}
       <ToastContainer />
       
@@ -53,7 +53,7 @@ const Contact = () => {
           We appreciate to hear your feedback. And your support is a lot to us to publish MyGPA in Google PlayStore
         </p>
 
-        <div className="mt-12">
+        <div className="mt-10">
           <h2 className="text-grey text-base font-bold">Contact</h2>
           <ul className="mt-4">
             <li className="flex items-center">
@@ -84,7 +84,7 @@ const Contact = () => {
         <div className="mt-8">
           <h2 className="text-gray-800 text-base font-bold">Check our Github Repository...</h2>
 
-          <ul className="flex mt-4 space-x-4">
+          <ul className="flex mt-4 space-x-4 mb-10">
             <li className="bg-white h-10 w-10 rounded-full flex items-center justify-center hover:shadow-purple hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out shrink-0">
               <a href="https://github.com/Darkhenrhal/MyGPA.git" target="_blank">
                 <FaGithub className="text-3xl text-purple transition-transform duration-300 ease-in-out" />
@@ -94,7 +94,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <form className="ml-auto space-y-4" onSubmit={onSubmit}>
+      <form className="ml-auto space-y-4 " onSubmit={onSubmit}>
         <input type="text" name="name" placeholder="Name"
           className="w-full rounded-md py-3 px-4 bg-grey-100 text-grey text-sm outline-purple focus:bg-transparent" />
         <input type="email" name="email" placeholder="Email"

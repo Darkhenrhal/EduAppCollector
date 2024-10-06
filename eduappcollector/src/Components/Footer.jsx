@@ -80,12 +80,12 @@ const Footer = () => {
                 type='email'
                 name="email"
                 placeholder='Enter your email'
-                className="w-full outline-none text-gray-300 text-sm bg-[#343538] pl-4 placeholder:text-gray-500 transition-all duration-200"
+                className="w-full outline-none text-gray-300 text-sm bg-[#343538] pl-4 placeholder:text-greylight transition-all duration-200"
                 // Remove the onFocus and onBlur handlers
               />
               <button
                 type='submit'
-                className="bg-gray-100 hover:bg-white transition-all text-gray-600 font-semibold text-sm rounded-full px-5 py-2 ml-4"
+                className="bg-gray-100 hover:bg-white transition-all text-gray font-semibold text-sm rounded-full px-5 py-2 ml-4"
               >
                 Submit
               </button>
